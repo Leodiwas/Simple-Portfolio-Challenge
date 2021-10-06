@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+    background: #E5E5E5;
+}
+
+/* default styling */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.nav-toggler{
+    display: none;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto ;
+}
+.underline{
+    background: black;
+    width: 100%;
+    height: 3px;
+}
+
+/* navbar styling */
+.nav-container{
+    padding: 0 60px;
+}
+.navbar-content {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Heebo", sans-serif;
+}
+.nav-menu {
+    display: flex;
+}
+.nav-link{
+    color: #21243D;
+    padding: 26px;
+    display: block;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+/* main styling */
+main{
+    margin-block: 84px;
+}
+
+/* Header styling */
+.header{
+    margin-top: 120px;
+}
+.header-contents{
+    display: flex;
+    gap: 120px;
+    width: 100%;
+}
+
+.header-info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 40px;
+    max-width: 90ch;
+}
+.title{
+    color: #21243D;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 80px;
+    font-family: "Heebo", sans-serif;
+    /* max-width: 35ch; */
+}
+.sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Heebo", sans-serif;
+    line-height: 24px;
+    color: #21243D;
+    /* max-width: 55ch; */
+}
+.btn{
+    font-family: "Heebo", sans-serif;
+    padding: 9px 21px 17px 20px ;
+    color: #FFFFFF;
+    border-radius: 2px;
+    background: #FF6464;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    height: 50px;
+    width: 210px;
+}
+
+.header-img{
+    width: 30%;
+}
+.header-img > img{
+    border-radius: 50%;
+}
+
+/* post styling */
+
+.post{
+    background: #EDF7FA;
+    padding-top: 7px ;
+    padding-bottom: 32px;
+}
+
+.post-head{
+    font-family: "Heebo", sans-serif;
+    background: #EDF7FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-head > p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #21243D;
+    line-height: 60px;
+    background: #EDF7FA;
+
+}
+.post-head > a{
+    background: #EDF7FA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00A8CC;
+}
+
+.post-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #21243D;
+    background: #EDF7FA;
+}
+.card-head{
+    font-family: "Heebo", sans-serif;
+    padding: 24px 22px;
+    max-width: 48ch;
+}
+.card-head span{
+    font-weight:700;
+    font-size: 26px;
+    line-height: 38px;
+    max-width: 20ch;
+}
+.card-date{
+    display: flex;
+    position: relative;
+    /* gap: 40px ; */
+    padding-block: 14px;
+}
+.card-date > p{
+    font-family: "Heebo", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card-date > p:first-child::after{
+    content: "";
+    width: 22px;
+    background: black;
+    height: 2px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 24px;
+    left: 118px;
+}
+.card-date > p:nth-child(1){
+    margin-right: 60px;
+}
+.card-details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* works section stying */
+
+.works-contents{
+    width: 100%;
+    font-family: "Heebo", sans-serif;
+}
+.works-contents > h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.works-about{
+    display: flex;
+    gap: 30px;
+    margin-block: 22px;
+}
+.works-about > img{
+    width: 30%;
+    border-radius: 4px;
+}
+.works-details{
+    width: 70%;
+}
+.works-title{
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 44px;
+    color: #21243D ;
+}
+.works-items{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    margin-block: 16px;
+}
+.works-items > p:first-child{
+    background: #142850;
+    color: #ffffff;
+    font-weight: 900;
+    padding: 4px 12px;
+    font-size: 18px ;
+    border-radius: 16px;
+}   
+.works-items > p:nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8695A4;
+}
+.works-info > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    max-width: 62ch;
+}
