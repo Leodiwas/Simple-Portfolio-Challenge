@@ -9,7 +9,7 @@
     text-decoration: none;
     list-style-type: none;
 
-    background: #E5E5E5;
+    background: #ffffff;
 }
 
 /* default styling */
@@ -44,6 +44,9 @@
 }
 .nav-menu {
     display: flex;
+}
+.nav-menu .nav-home{
+    color: #FF6464;
 }
 .nav-link{
     color: #21243D;
@@ -205,6 +208,8 @@ main{
     font-size: 22px;
     line-height: 60px;
     color: #21243D;
+    padding-block: 8px;
+    margin-top: 12px;
 }
 .works-about{
     display: flex;
@@ -220,7 +225,7 @@ main{
 }
 .works-title{
     font-size: 32px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 44px;
     color: #21243D ;
 }
@@ -252,4 +257,165 @@ main{
     max-width: 62ch;
 }
 
+ /*................. blog page styling ........................*/
+
+.blog-menu .nav-blog {
+    color: #FF6464;
+}
+
+.blogs-contents{
+    width: 100%;
+    font-family: "Heebo", sans-serif;
+}
+.blogs-contents> h3{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.blogs-about{
+    display: flex;
+    gap: 30px;
+    margin-block: 30px;
+}
+
+.blogs-title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #21243D ;
+}
+.blogs-items{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    margin-block: 16px;
+    position: relative;
+}
+.blogs-items > p:first-child{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px ;
+    line-height: 30px;
+    color: #21243D ;
+}   
+.blogs-items > p:first-child::after{
+    content: "";
+    width: 22px;
+    background: black;
+    height: 2px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 12px;
+    left: 118px;
+}
+.blogs-items > p:nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8695A4;
+}
+.blogs-info > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    max-width: 62ch;
+}
+
+/* .Works page styling */
+
+.nav-works .nav-works {
+    color: #FF6464;
+}
+.works-page-details {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.works-page-contents > h4{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.works-under{
+    margin-block: 40px;
+}
+
+.works-page-info > p {
+    max-width: 46ch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer styling */
+.footer{
+    margin-top: 84px;
+}
+.footer-contents{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-block: 54px;
+    font-family: "Heebo", sans-serif;
+
+}
+.footer-icons{
+    margin-bottom: 26px;
+    display: flex;
+    gap: 36px;
+}
+
+.footer-icons a i{
+    color: #21243D;
+    font-size: 34px;
+    cursor: pointer;
+}
+.footer-icons > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20;
+    color:  #21243D;
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
-
-
 </head>
-
 <body>
     <!-- navbar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="navbar-content">
 
-                <ul class="nav-menu">
-                    <li><a href="./home.html" class="nav-link nav-home">Home</a></li>
-                    <li><a href="./blog.html" class="nav-link">Blogs</a></li>
-                    <li><a href="./works.html" class="nav-link">Works</a></li>
-                    <li><a href="#" class="nav-link">Contact</a></li>
+                <ul class="nav-menu nav-works">
+                    <li><a href="./home.html" class="nav-link">Home</a></li>
+                    <li><a href="./blog.html" class="nav-link nav-blog">Blogs</a></li>
+                    <li><a href="./works.html" class="nav-link nav-works">Works</a></li>
+                    <li><a href="./contact" class="nav-link">Contact</a></li>
                 </ul>
 
                 <button class="nav-toggler">
@@ -32,82 +27,18 @@
                 </button>
             </div>
         </div>
-    </nav>
-
-    <header class="header">
-        <div class="container">
-            <div class="header-contents">
-
-                <!-- info of header -->
-                <div class="header-info">
-                    <div class="title">
-                        <h1>Hi, I am John,
-                            Creative Technologist</h1>
-                    </div>
-                    <div class="sub-title">
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    </div>
-                    <a href="" class="btn">Download Resume</a>
-                </div>
-
-                <!-- image of header -->
-                <div class="header-img">
-                    <img src="images/leo.png" alt="" class="img-responsive">
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <!-- post styling -->
-        <section class="post">
-            <div class="container">
-                <div class="post-contents">
-                    <div class="post-head">
-                        <p>Recent posts</p>
-                        <a href="">View all</a>
-                    </div>
-                    <div class="post-card">
-                        <div class="card-head">
-                            <span>Making a design system from scratch</span>
-                            <div class="card-date">
-                                <p>12 Feb 2020</p>
-                                <p>Design, Pattern</p>
-                            </div>
-                            <div class="card-details">
-                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
-                                    amet.</p>
-                            </div>
-                        </div>
-
-                        <div class="card-head">
-                            <span>Creating pixel perfect icons in Figma</span>
-                            <div class="card-date">
-                                <p>12 Feb 2020</p>
-                                <p>Figma, Icon Design</p>
-                            </div>
-                            <div class="card-details">
-                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
-                                    amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+    </nav>  <!-- navbar ends    -->
+    
+    <main><!-- main starts -->
         <!-- works section -->
         <section class="works">
             <div class="container">
-                <div class="works-contents">
-                    <h2>Featured works</h2>
+                <div class="works-contents works-page-contents">
+                    <h4>Featured works</h4>
                     <!-- works-1 -->
                     <div class="works-about">
                         <img src="images/about.jpg" alt="" class="img-responsive">
-                        <div class="works-details">
+                        <div class="works-details works-page-details">
                             <p class="works-title">Designing Dashboards</p>
                             <div class="works-items">
                                 <p>2020</p>
@@ -120,12 +51,12 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <hr class="underline">
+                    </div> 
+                    <hr class="underline works-under">
                     <!-- works-2 -->
                     <div class="works-about">
                         <img src="images/vibrant-potrait.jpg" alt="" class="img-responsive">
-                        <div class="works-details">
+                        <div class="works-details works-page-details">
                             <p class="works-title">Vibrant Portraits of 2020</p>
                             <div class="works-items">
                                 <p>2018</p>
@@ -139,11 +70,11 @@
                             </div>
                         </div>
                     </div>
-                    <hr class="underline">
-                    <!-- works-2 -->
+                    <hr class="underline works-under">
+                    <!-- works-3 -->
                     <div class="works-about">
                         <img src="images/malaya.jpg" alt="" class="img-responsive">
-                        <div class="works-details">
+                        <div class="works-details works-page-details">
                             <p class="works-title">36 Days of Malayalam type</p>
                             <div class="works-items">
                                 <p>2018</p>
@@ -157,13 +88,33 @@
                             </div>
                         </div>
                     </div>
-                    <hr class="underline ">
+                    <hr class="underline works-under">
+                    <!-- works-4 -->
+                    <div class="works-about">
+                        <img src="images/components.jpg" alt="" class="img-responsive">
+                        <div class="works-details works-page-details">
+                            <p class="works-title">Components</p>
+                            <div class="works-items">
+                                <p>2018</p>
+                                <p>Components, Design</p>
+                            </div>
+                            <div class="works-info">
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="underline works-under">
                 </div>
             </div>
         </section>
-
+        <!-- section ends -->
     </main>
+    <!-- main ends -->
 
+    
     <!-- footer -->
     <footer class="footer">
         <div class="container">
@@ -184,5 +135,4 @@
     </footer>
 
 </body>
-
 </html>
