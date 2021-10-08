@@ -41,8 +41,9 @@ html,body{
     margin: 0 auto;
 }
 
-nav.container{
-    max-width: 1300px ;
+
+.navbar .container{
+    max-width: 1400px ;
 }
 
 .nav-toggler{
@@ -311,7 +312,7 @@ main{
 }
 .works-cards > img{
     width: 30%;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 .works-cards-details{
     width: 70%;
@@ -419,7 +420,7 @@ main{
 
 /*.......................... Works page styling................ */
 
-.nav-works .nav-works {
+.nav-works-menu .nav-works {
     color: var(--color-primary);
 }
 .works-page-details {
@@ -442,6 +443,64 @@ main{
 .works-page-info > p {
     max-width: 46ch;
 }
+
+/* ....................dashboard page styling.................... */
+
+.dashboard-menu .nav-dashboard {
+    color: var(--color-primary);
+}
+
+.dashboard-cards{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-direction: column-reverse;
+}
+.dashboard-block-details{
+    gap: 20px;
+    width: 100%;
+}
+.dashboard-block-details > img{
+    border-radius: 6px;
+    width: 100%;
+}
+.dashboard-block-title{
+    max-width: 28ch;
+    font-size: 34px;
+    line-height: 50px;
+}
+.dashboard-2-block-title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.dashboard-block-items > p:first-child{
+    background: var(--color-primary);
+}
+.dashboard-block-items > span{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+}
+.dashboard-block-info{
+    width: 100%;
+}
+.dashboard-block-info > p{
+    max-width: 74ch;
+}
+.dashboard-cards > img{
+    border-radius: 6px;
+}
+.dashboard-footer{
+    margin-top: 0;
+}
+.dashboard-main{
+    margin-top: 84px;
+    margin-bottom: 0;
+}
+
+
+
 
 /*....................... footer styling....................... */
 .footer{
@@ -601,6 +660,10 @@ main{
     .footer-contents{
         padding-block: 20px;
     }
+
+    .dashboard-footer{
+        margin-top: 60px;
+    }
 }
 
 
@@ -662,6 +725,14 @@ main{
         max-width: 10ch;
         text-align: center;
     } 
-
+    .dashboard-block-details{
+        gap: 10px;
+    }
+    .dashboard-block-items{
+        gap: 0;
+    }
+    .dashboard-block-items >p:nth-child(2){
+        max-width: 30ch;
+    }
 }
 
