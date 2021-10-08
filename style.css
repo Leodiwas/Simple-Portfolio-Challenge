@@ -197,7 +197,7 @@ main{
     transition: all 0.5s ease;
 }
 .btn:hover{
-    box-shadow: 0 0 2px 4px var(--color-primary);
+   background-color: red;
 }
 
 .header-img{
@@ -446,7 +446,7 @@ main{
 
 /* ....................dashboard page styling.................... */
 
-.dashboard-menu .nav-dashboard {
+.dashboard-menu .active {
     color: var(--color-primary);
 }
 
@@ -692,8 +692,8 @@ main{
     }
     .title{
         max-width: 35ch;
-        line-height: 36px;
-        font-size: 14px;
+        line-height: 44px;
+        font-size: 19px;
     }
     .sub-title{
         line-height: 24px;
@@ -711,6 +711,8 @@ main{
     }
     .works-card-title{
         text-align: center;
+        font-size: 26px;
+        line-height: 28px;
     }
     .works-card-items{
         justify-content: center;
@@ -721,8 +723,15 @@ main{
     .works-page-contents > h4{
         text-align: center;
     }
+    .dashboard-block-title{
+        font-size: 34px;
+        line-height: 44px;
+    }
     .works-card-items > p:nth-child(2) {
         max-width: 10ch;
+        text-align: center;
+    }
+    .blogs-contents > h3{
         text-align: center;
     } 
     .dashboard-block-details{
@@ -732,7 +741,7 @@ main{
         gap: 0;
     }
     .dashboard-block-items >p:nth-child(2){
-        max-width: 30ch;
+        max-width: 18ch;
     }
 }
-
+    
